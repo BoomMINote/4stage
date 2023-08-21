@@ -1,6 +1,7 @@
 import wave
 import numpy as np
 import plotly.graph_objects as go
+from PyEMD import EMD
 
 # Load WAV audio file
 audio_file = "/mnt/d/guitar.wav"
