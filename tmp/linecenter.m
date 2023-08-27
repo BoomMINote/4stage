@@ -1,5 +1,5 @@
 
-srcImage=imread('test.jpg');
+srcImage=imread('line.jpg');
 srcImage=rgb2gray(srcImage);
 srcImage1=srcImage;
 sigma=3;
@@ -70,7 +70,7 @@ imshow(uint8(srcImage));
 hold on
 plot(points(:,1),points(:,2),'r.','MarkerSize',1)
 hold off
-
+saveas(gcf, 'line-out.png')
 
 
 
